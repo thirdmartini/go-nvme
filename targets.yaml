@@ -1,0 +1,29 @@
+targets:
+# - name: "nqn.2020-20.com.thirdmartini.nvme:cephemo"
+#   type: "rbd"
+#   modelname: "ThirdMartini NVME"
+#   firmwareversion: "1.0"
+#   serialnumber: "0000000001"
+#   options:
+#     cluster: "ceph"
+#     user: "admin"
+#     pool: "rbd"
+#     image: "cephdemo"
+
+ - name: "nqn.2020-20.com.thirdmartini:uuid:2eff04dd-745a-4fc8-9f5f-10432b13a04f"
+   uuid: "2eff04dd-745a-4fc8-9f5f-10432b13a04f"
+   type: "null"
+   modelname: "ThirdMartini NVME"
+   firmwareversion: "1.3.0test"
+   serialnumber: "Volume0"
+   options:
+
+ - name: "nqn.2020-20.com.thirdmartini.nvme:uuid:edbb6aab-3194-493b-bb38-732f71fe966c"
+   uuid: "edbb6aab-3194-493b-bb38-732f71fe966c"
+   type: "file"
+   modelname: "ThirdMartini NVME"
+   firmwareversion: "1.0"
+   serialnumber: "0000000003"
+   options:
+     image: "/Volumes/Scratch/nvme/nvme0.raw"
+

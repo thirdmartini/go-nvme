@@ -1,0 +1,30 @@
+targets:
+ - name: "nqn.2020-20.com.thirdmartini.nvme:demo"
+   uuid: "c5f83782-6bb5-47bc-a78a-b68a5af85974"
+   type: "rbd"
+   modelname: "ThirdMartini NVME"
+   firmwareversion: "1.0"
+   serialnumber: "0000000001"
+   options:
+     cluster: "ceph"
+     user: "admin"
+     pool: "rbd"
+     image: "demo"
+
+ - name: "nqn.2020-20.com.thirdmartini.nvme:null"
+   uuid: "f4eb931f-1648-4ebe-a832-b5ba5b91e8a1"
+   type: "null"
+   modelname: "ThirdMartini NVME"
+   firmwareversion: "1.0"
+   serialnumber: "0000000002"
+   options:
+
+ - name: "nqn.2020-20.com.thirdmartini.nvme:file"
+   uuid: "39e92c9c-f486-41e2-812b-4ebbc56665ee"
+   type: "file"
+   modelname: "ThirdMartini NVME"
+   firmwareversion: "1.0"
+   serialnumber: "0000000003"
+   options:
+     image: "/data/image.raw"
+
